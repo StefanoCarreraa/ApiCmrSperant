@@ -12,6 +12,6 @@ app.use("/webhook", facebookRoutes);
 app.use("/api/sperant", sperantRoutes);
 
 // Webs 
-app.use("/public", legalRoutes);
+app.use("/legal", legalRoutes);
 
 export default app;
